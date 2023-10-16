@@ -44,5 +44,15 @@ return [
             'label' => 'seat-connector-discord::seat.use_email_scope',
             'type'  => 'checkbox',
         ],
+        [
+            'name'  => 'ignored_roles',
+            'label' => 'seat-connector-discord::seat.ignored_roles',
+            'type'  => 'text',
+        ],
+        [
+            'name'  => 'ignored_users',
+            'label' => 'seat-connector-discord::seat.ignored_users',
+            'type'  => 'text',
+        ],
     ],
 ];
